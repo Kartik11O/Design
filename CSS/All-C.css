@@ -212,6 +212,9 @@ Nav{
     #container2{
         flex-wrap: wrap;
     }
+    #container3{
+        flex-wrap: wrap;
+    }
   }
 
   .fa-long-arrow-left:before {
