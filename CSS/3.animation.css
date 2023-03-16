@@ -1,0 +1,47 @@
+.container::after{
+    animation: 0.5s anime both;
+}
+
+#container2::after{
+    animation: 0.5s anime both;
+}
+
+#container3::after{
+    animation: 0.5s anime_back both;
+}
+
+.anime-1{
+    animation: 0.5s anime both;
+    animation-delay: 0.3s;
+}
+
+.anime-2{
+    animation: 0.5s anime both;
+    animation-delay: 0.5s;
+}
+@keyframes anime {
+    0%{
+       opacity: 0;
+       transform: translateX(-200px);
+    }
+    
+}
+
+/* backk side animation */
+
+.anime_back_1{
+    animation: 0.5s anime_back both;
+    animation-delay: 0.3s;
+}
+
+.anime_back_2{
+    animation: 0.5s anime_back both;
+    animation-delay: 0.5s;
+}
+@keyframes anime_back {
+    0%{
+       opacity: 0;
+       transform: translateX(200px);
+    }
+    
+}

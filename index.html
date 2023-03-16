@@ -1,56 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/All-C.css">
+    <link rel="stylesheet" href="CSS/2.css">
     <link rel="stylesheet" href="CSS/ROOT.css">
+    <link rel="stylesheet" href="CSS/3.animation.css">
+    <link rel="stylesheet" href="CSS/4.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-  </style>
+</style>
+
 <body>
-    <section>
-        <div class="container">
-            <Nav>
-                <div id="navbar1" class="Allnavbar">
-                    <h1>Disrest</h1>
+    <Main id="hide1">
+        <section>
+            <div class="container">
+                <Nav>
+                    <div id="navbar1" class="Allnavbar">
+                        <h1>Disrest</h1>
+                    </div>
+                    <div id="navbar2" class="Allnavbar">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Know me</a>
+                    </div>
+                </Nav>
+                <div class="Main_box">
+                    <div class="Content ">
+                        <div id="Part1">
+                            <h1>2009</h1>
+                        </div>
+                        <div id="Part2">
+                            <h1>Spirited Away</h1>
+                        </div>
+                        <div id="Part3"><button id="btn"><span class="fa fa-play"></span> WATCH TRAILER</button> <span
+                                id="IMDB">IMDB</span></div>
+                    </div>
+                    <footer class="Footer" id="Footer1">
+                        <button  id="btn_change1" class="All_btn_change fa fa-long-arrow-left" onclick="Slient()"></button>
+                        <span class="AllName1">Slient Voice</span>
+                    </footer>
+
                 </div>
-                <div id="navbar2" class="Allnavbar">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Know me</a>
+
+
+
+                <div class="Main_box">
+                    <div class="Content  " id="push">
+                        <div id="Part4">
+                            <p>Spirited Away (千と千尋の神隠し , Sen to Chihiro no Kamikakushi, literally translated as "Sen and
+                                Chihiro's Spiriting Away"), is the 12th animated film written and directed by Hayao
+                                Miyazaki and produced by Studio Ghibli, and premiered in theaters in Japan on July 20,
+                                2001.
+                                The story is about the adventures of a young ten-year-old girl named Chihiro as she
+                                wanders into the world of the gods and spirits. She is forced to work at a bathhouse
+                                following her parents being turned into pigs by the witch Yubaba.</p>
+                        </div>
+                    </div>
+                    <footer class="Footer" id="Footer2">
+                        <span class="AllName2">Hyouka</span> <button onclick="Hyuoka()" id="btn_change2"
+                            class="All_btn_change fa fa-long-arrow-right"></button>
+                    </footer>
                 </div>
-            </Nav>
-            <div class="Main_box">
-                <div class="Content">
-                    <div id="Part1"><h1>2009</h1></div>
-                    <div id="Part2"><h1>Spirited Away</h1></div>
-                    <div id="Part3"><button id="btn"><span class="fa fa-play"></span> WATCH TRAILER</button> <span id="IMDB">IMDB</span></div>
-                </div>
-                <footer class="Footer" id="Footer1">
-                   <button id="btn_change1" class="All_btn_change fa fa-long-arrow-left"></button>
-                   <span class="AllName1">Slient Voice</span> 
-                </footer>
-                
             </div>
+        </section>
+    </Main>
 
+    <Main id="hide2">
+        <section>
+            <div  id="container2">
+                <Nav>
+                    <div id="navbar1" class="Allnavbar">
+                        <h1>Disrest</h1>
+                    </div>
+                    <div id="navbar2" class="Allnavbar">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Know me</a>
+                    </div>
+                </Nav>
+                <div class="Main_box">
+                    <div id="Conten2" >
+                        <div id="Part2-1">
+                            <h1>2012</h1>
+                        </div>
+                        <div id="Part2-2">
+                            <h1>hyouka</h1>
+                        </div>
+                        <div id="Part2-3"><button id="btn"><span class="fa fa-play"></span> WATCH TRAILER</button> <span
+                                id="IMDB">IMDB</span></div>
+                    </div>
+                    <footer class="Footer" id="Footer1">
+                        <button id="btn_change1" onclick="Spirited()" class="All_btn_change fa fa-long-arrow-left"></button>
+                        <span class="AllName1">Spirited Away</span>
+                    </footer>
 
-
-            <div class="Main_box">
-                <div class="Content" id="push">
-                    <div id="Part4"><p>Spirited Away (千と千尋の神隠し , Sen to Chihiro no Kamikakushi, literally translated as "Sen and Chihiro's Spiriting Away"), is the 12th animated film written and directed by Hayao Miyazaki and produced by Studio Ghibli, and premiered in theaters in Japan on July 20, 2001.
-                        The story is about the adventures of a young ten-year-old girl named Chihiro as she wanders into the world of the gods and spirits. She is forced to work at a bathhouse following her parents being turned into pigs by the witch Yubaba.</p></div>
                 </div>
-                <footer class="Footer" id="Footer2">
-                   <span class="AllName2">Your Name</span> <button id="btn_change2" class="All_btn_change fa fa-long-arrow-right"></button>
-                </footer>
+
+
+
+                <div class="Main_box">
+                    <div id="Content-2" >
+                        <div id="Part4">
+                            <p>Apathetic high school student Houtarou Oreki is forced to enter his school's Classic Literature Club upon the request of his older sister, Tomoe Oreki. This club was on the verge of being disbanded due to the absence of members. However, he founds out that club already has one member in the face of ever-curious girl called Eru Chitanda. In a little while his friends, knowledgeble Satoshi Fukube and stern Mayaka Ibara, also join in. Accompanied by his fellow club members and being pushed by Chitanda's curiosity, Oreki is forced to solve different mysteries by using his resourcefulness and hidden talents.</p>
+                        </div>
+                    </div>
+                    <footer class="Footer" id="Footer2">
+                    </footer>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </Main>
+    <Main id="hide3">
+        <section>
+            <div  id="container3">
+                <Nav>
+                    <div id="navbar1" class="Allnavbar">
+                        <h1>Disrest</h1>
+                    </div>
+                    <div id="navbar2" class="Allnavbar">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Know me</a>
+                    </div>
+                </Nav>
+                <div class="Main_box">
+                    <div id="Conten3" >
+                        <div id="Part3-1">
+                            <h1>2016</h1>
+                        </div>
+                        <div id="Part3-2">
+                            <h1>Koe no Katachi</h1>
+                        </div>
+                        <div id="Part3-3"><button id="btn"><span class="fa fa-play"></span> WATCH TRAILER</button> <span
+                                id="IMDB">IMDB</span></div>
+                    </div>
+                    <footer class="Footer" id="Footer1">
+                    </footer>
+
+                </div>
+
+
+
+                <div class="Main_box">
+                    <div id="Content-3" >
+                        <div id="Part4">
+                            <p>Koe no Katachi (聲の形 The Shape of Voice) is a Japanese manga series written and illustrated by Yoshitoki Oima. It involves the story of Nishimiya Shouko, a middle school student who is deaf. She transfers into a new school, where she is bullied by her classmates. Ishida Shouya, one of the bullies, goes to the point where she transfers to another school. As a result, he is ostracized and bullied himself, with no friends to speak of and no plans for the future. Years later, he sets himself on a path to redemption.</p>
+                        </div>
+                    </div>
+                    <footer class="Footer" id="Footer2">
+                        <span class="AllName2">Spirited Away</span> <button onclick="V_S()" id="btn_change2"
+                        class="All_btn_change fa fa-long-arrow-right"></button>
+                    </footer>
+                </div>
+            </div>
+        </section>
+    </Main>
+
+    <script src="JS/js.js"></script>
 </body>
+
 </html>
