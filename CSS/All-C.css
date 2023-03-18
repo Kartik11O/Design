@@ -63,7 +63,7 @@ Nav{
 }
 .container{
     position: relative;
-    min-height: 90vh;
+    height: clamp(300px,90vh,648px);
     width: clamp(343px,80%,1290px);
     box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.4);
     z-index: 99;
